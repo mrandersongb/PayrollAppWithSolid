@@ -9,7 +9,7 @@ namespace PayrollAppWithSolid.Model
         const int hourlyRate = 22;
         const int hiredBonus = 500;
 
-        public float CalculateBonus(int hoursWorked)
+        float CalculateBonus(int hoursWorked)
         {
             // bonus condition
             return hoursWorked > 100 ? hiredBonus : 0;
