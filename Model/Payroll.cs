@@ -6,5 +6,10 @@ namespace PayrollAppWithSolid.Model
 {
     class Payroll
     {
+        public float CalculateSalary(String employee, float hours)
+        {
+
+            return 0;
+        }
     }
 }
