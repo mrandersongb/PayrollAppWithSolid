@@ -1,0 +1,1 @@
+﻿# Payroll Application with SOLID Principles
