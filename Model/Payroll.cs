@@ -6,26 +6,16 @@ namespace PayrollAppWithSolid.Model
 {
     class Payroll
     {
-        public float CalculateSalary(String employee,int hours)
+        readonly IEmployee m_employee;
+
+        public Payroll(IEmployee employee)
         {
-            float salary = 0;
+            m_employee = employee;
+        }
 
-            if (employee == "developer" )
-            {
-                salary = new Developer().CalculateSalary(hours);
-            }
-
-            else if (employee == "teamLeader")
-            {
-                salary = new TeamLeader().CalculateTeamLeaderSalary(hours);
-            }
-
-            else if (employee == "recruiter")
-            {
-                salary = new Recruiter().CalculateTotalSalary(hours);
-            }
-
-            return salary;
+        public float CalculateSalary(int hours)
+        {
+            return m_employee.CalculateSalary(hours);        
         }
     }
 }
