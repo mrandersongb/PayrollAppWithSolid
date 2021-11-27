@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    class TeamLeader : IEmployee
+    public class TeamLeader : IEmployee
     {
         const int hourlyRate = 35;
 
