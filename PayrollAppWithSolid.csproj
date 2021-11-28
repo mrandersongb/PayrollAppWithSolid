@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ModelTest\**" />
+    <EmbeddedResource Remove="ModelTest\**" />
+    <None Remove="ModelTest\**" />
+  </ItemGroup>
+
 </Project>
