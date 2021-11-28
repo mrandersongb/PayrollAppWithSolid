@@ -4,15 +4,12 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    class Payroll
+    public class Payroll
     {
-        readonly IEmployee m_employee;
+        private readonly IEmployee m_employee;
 
-        public Payroll(IEmployee employee)
-        {
-            m_employee = employee;
-        }
-
+        public Payroll(IEmployee employee) => m_employee = employee;
+        
         public float CalculateSalary(int hours)
         {
             return m_employee.CalculateSalary(hours);        

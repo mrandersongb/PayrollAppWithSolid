@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    interface IEmployee
+    public interface IEmployee
     {
         float CalculateSalary(int hours);
     }
