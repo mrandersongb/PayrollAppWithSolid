@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollAppWithSolid", "PayrollAppWithSolid.csproj", "{13DEA93A-3B43-430A-B5CB-DB7606032BA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollAppWithSolid", "PayrollAppWithSolid\PayrollAppWithSolid.csproj", "{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollAppWithSolidTest", "..\PayrollAppWithSolidTest\PayrollAppWithSolidTest.csproj", "{0BE1217F-2393-4FFA-909C-5496C2ABE01E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollAppWithSolidTest", "PayrollAppWithSolidTest\PayrollAppWithSolidTest.csproj", "{083AAE0A-C79A-4187-B474-20F5BC4504C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13DEA93A-3B43-430A-B5CB-DB7606032BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13DEA93A-3B43-430A-B5CB-DB7606032BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13DEA93A-3B43-430A-B5CB-DB7606032BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13DEA93A-3B43-430A-B5CB-DB7606032BA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BE1217F-2393-4FFA-909C-5496C2ABE01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BE1217F-2393-4FFA-909C-5496C2ABE01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BE1217F-2393-4FFA-909C-5496C2ABE01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BE1217F-2393-4FFA-909C-5496C2ABE01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083AAE0A-C79A-4187-B474-20F5BC4504C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083AAE0A-C79A-4187-B474-20F5BC4504C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083AAE0A-C79A-4187-B474-20F5BC4504C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083AAE0A-C79A-4187-B474-20F5BC4504C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
