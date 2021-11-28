@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    class Recruiter
+    public class Recruiter : IEmployee
     {
         const int hourlyRate = 22;
         const int hiredBonus = 500;
@@ -15,10 +15,9 @@ namespace PayrollAppWithSolid.Model
             return hoursWorked > 100 ? hiredBonus : 0;
         }
 
-        public float CalculateTotalSalary(int hours)
+        public float CalculateSalary(int hours)
         {
             return hours * hourlyRate + CalculateBonus(hours);
         }
-
     }
 }

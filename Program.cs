@@ -10,19 +10,28 @@ namespace PayrollAppWithSolid
         {
             try
             {
-                Payroll payroll = new Payroll();
+                Console.WriteLine("Fill the employeer [0-developer|1-teamLeader|2-recruiter]: ");
 
-                Console.WriteLine("Fill the employeer [developer|teamLeader|recruiter]: ");
+                int employee = int.Parse(Console.ReadLine());
 
-                string employeer = Console.ReadLine();
+                Payroll payroll = employee switch
+                {
+                    0 => new Payroll(new Developer()),
+                    1 => new Payroll(new TeamLeader()),
+                    2 => new Payroll(new Recruiter()),
+                    _ => null
+                };
 
-                Console.WriteLine("Fill the amount hours: ");
+                if (payroll != null)
+                {
+                    Console.WriteLine("Fill the amount hours: ");
 
-                int hours = int.Parse(Console.ReadLine());
+                    int hours = int.Parse(Console.ReadLine());
 
-                float salary = payroll.CalculateSalary(employeer, hours);
+                    float salary = payroll.CalculateSalary(hours);
 
-                Console.WriteLine($"Salary value: {salary}");
+                    Console.WriteLine($"Salary value: {salary}");
+                }  
             } 
             catch(Exception ex)
             {

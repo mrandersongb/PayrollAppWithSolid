@@ -4,11 +4,11 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    class TeamLeader
+    public class TeamLeader : IEmployee
     {
         const int hourlyRate = 35;
 
-        public float CalculateTeamLeaderSalary(int hours)
+        public float CalculateSalary(int hours)
         {
             return hours * hourlyRate;
         }

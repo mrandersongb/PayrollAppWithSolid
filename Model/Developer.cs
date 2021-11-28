@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PayrollAppWithSolid.Model
 {
-    public class Developer
+    public class Developer : IEmployee
     {
         const int houlyRate = 40;
 
