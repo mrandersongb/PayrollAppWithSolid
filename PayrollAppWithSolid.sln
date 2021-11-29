@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollAppWithSolid", "PayrollAppWithSolid\PayrollAppWithSolid.csproj", "{8C650B2E-3C75-4BD4-B0F4-1D21E5427AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollAppWithSolidTest", "PayrollAppWithSolidTest\PayrollAppWithSolidTest.csproj", "{083AAE0A-C79A-4187-B474-20F5BC4504C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollAppWithSolid.UnitTest", "PayrollAppWithSolidTest\PayrollAppWithSolid.UnitTest.csproj", "{083AAE0A-C79A-4187-B474-20F5BC4504C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
