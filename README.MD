@@ -1,4 +1,6 @@
-﻿# A Payroll Application with SOLID Principles
+﻿![alt technology](technology.png)
+
+# A Payroll Application with SOLID Principles
 
 A simple Payroll application that calculates an employee's salary, 
 I've used some SOLID principles below to make software easy to maintain, scalable:
